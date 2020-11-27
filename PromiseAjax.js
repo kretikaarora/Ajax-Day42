@@ -55,6 +55,8 @@ function makePromiseCall(methodType,url,async=true,data=null)
 //url for getting employee 3
 const getURL="http://localhost:3000/Employees/3";
 //making a promise call ,here we did not mention callback function
+//then pushes the sucesss handler
+//catch pushes the error handler ie. reject
 makePromiseCall("GET",getURL,true)
     .then(responseText=>{
         console.log("Get User data: "+responseText);
