@@ -11,11 +11,6 @@
       "salary": "40000"
     },
     {
-      "name": "deny",
-      "salary": "56000",
-      "id": 5
-    },
-    {
       "id": 6,
       "name": "gen",
       "salary": "300000"
@@ -30,10 +25,11 @@
       "salary": "9874566",
       "id": 8
     },
+
     {
-      "name": "daisy",
-      "salary": "50000",
-      "id": 9
+      "name": "lara",
+      "salary": "480000",
+      "id": 15
     }
   ]
 }
