@@ -10,6 +10,7 @@ function showSessionExpire()
 {
     console.log("Activity-B Your session expired at"+showTime());
 }
+
 //programs starts from this part 
 //this program is the main thread and the functions called inside are child thread
 //the main thread will continue its execution even if child thread has not completely executed
