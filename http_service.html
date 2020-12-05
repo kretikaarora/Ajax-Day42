@@ -34,7 +34,6 @@
         .catch(error=>getElem.textContent="Error Status:"+error);
 
     //deleting element from json file
-    //url
     const deleteElem= document.querySelector("#delete_services")
     const deleteURL="http://localhost:3000/employees/9";
     //making promise call
@@ -44,7 +43,6 @@
 
     const postElem= document.querySelector("#post_services");
     const postURL= "http://localhost:3000/employees";
-    //id is directly added by the server, id always increases, if element is delete and then added, then also id will be forward incremented
     //deleted id will not be added
     const emplData= {"name":"lara","salary":"480000"};
     //making promise call
